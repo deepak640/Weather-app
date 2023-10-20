@@ -1,0 +1,7 @@
+.weather-icon {
+    width: 3em;
+    /* Adjust the width and height as needed for your design */
+    height: 3em;
+    background-size: cover;
+    display: inline-block;
+}
