@@ -15,7 +15,7 @@ function App() {
     icon: '--'
   })
   const handlesubmit = async () => {
-    const data = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=1dea735f54950b7d0ff276b74250c289#`)
+    const data = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=1dea735f54950b7d0ff276b74250c289#`)
     setdetails({
       name: data.data.name,
       region: data.data.sys.country,
